@@ -1,0 +1,8 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^kreashop.localhost$
+RewriteRule ^(/)?$ public [L]
+</IfModule>
+
+# END WordPress
